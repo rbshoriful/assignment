@@ -34,7 +34,7 @@ console.log(results);
 //tinyFriend
 function tinyFriend(friend) {
     var little = friend[0];
-    for (var i = 0; i < friend.lenght; i++) {
+    for (var i = 0; i < friend.length; i++) {
         var littleFriend = friend[i];
         if (littleFriend > little) {
             little = littleFriend;
@@ -42,4 +42,6 @@ function tinyFriend(friend) {
     }
     return little;
 }
+var littleFriendName = tinyFriend(["Rafikul", "Saiful", "Shopon", "Masum", "Halim", "Zia"]);
+console.log(littleFriendName);
 // Vai ami ei assignment ta ja pereci tai koreci kinto sothik vabe bujhte pari nai tai ei assignment and javascript somporke kisu janar cilo help korbe please! ami javascript mone hochse sob bujheci kisukhon por sob ojana hoye jachce. sothik vabe dhorte parci nah.
